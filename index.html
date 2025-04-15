@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysioAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="exercise\exercise.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PhysioAI</h1>
+        </div>
+        <div class="about-section">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>PhysioAI is an AI-powered platform for physiotherapy insights.his project develops an AI-powered system for posture monitoring in physiotherapy. It utilizes deep learning to analyze patient movements, detecting and correcting postural errors in real-time. The system aims to enhance rehabilitation by providing immediate feedback, improving treatment effectiveness, and potentially enabling home-based therapy. This technology represents a significant advancement in applying AI to healthcare, with the potential to revolutionize physiotherapy.</p>
+            </div>
+            <div class="about-image"><img src="phy.png"></div>
+        </div>
+        <div class="sections">
+            <h2>Sections</h2>
+            <div class="buttons">
+                <button onclick="toggleSection('legs')">Legs</button>
+                <div id="legs" class="exercise-section" style="display: none;">
+                    <h3>Leg Exercises</h3>
+                    <div class="exercise-cards">
+                  
+                      <div class="exercise-card card-1">
+                        <h4><a href="exercise/leg.html">Step-Ups</a></h4>
+                        <p>Step up onto a low step or platform.</p>
+                      </div>
+                  
+                      <div class="exercise-card card-2">
+                        <h4><a href="exercise/leg.html">Single-Leg Stance</a></h4>
+                        <p>Stand on one leg for a few seconds, and gradually increase the duration.</p>
+                      </div>
+                  
+                  
+                    </div>
+                  </div>
+                  
+                <button onclick="toggleSection('arms')">Arms</button>
+                <div id="arms" class="exercise-section" style="display: none;">
+                    <h3>Arm Exercises</h3>
+                    <div class="exercise-cards">
+                    <div class="exercise-card card-1">
+                        <h4><a href="exercise/arm.html">Cross-body arm stretch</a></h4>
+                        <p>Pulling one arm across the chest.</p>
+                    </div>
+
+                    <div class="exercise-card card-2">
+                        <h4><a href="exercise/arm.html">Arm circles</a></h4>
+                        <p>Rotating the arm in clockwise and counterclockwise directions.</p>
+                    </div>
+                    </div>
+                </div>
+                <button onclick="toggleSection('shoulders')">Shoulders</button>
+                <div id="shoulders" class="exercise-section">
+                    <h3>Shoulder Exercises</h3>
+                    <div class="exercise-cards">
+                        <div class="exercise-card card-1">
+                            <h4><a href="exercise/shoulder.html">Shoulder Press</a></h4>
+                            <p> Stand or sit with weights at shoulder height, press them overhead until your arms are straight.</p>
+                        </div>
+    
+                        <div class="exercise-card card-2">
+                            <h4><a href="exercise/shoulder.html">Lateral Raises:</a></h4>
+                            <p>Stand with a dumbbell in each hand at your sides, raise your arms out to the side until they are parallel to the ground.</p>
+                        </div>
+                        </div>
+                     </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
